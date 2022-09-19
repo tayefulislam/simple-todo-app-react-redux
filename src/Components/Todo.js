@@ -47,7 +47,7 @@ const Todo = ({ todo }) => {
 
             </div>
 
-            <div class="select-none flex-1 line-through">
+            <div class={`select-none flex-1 ${completed && 'line-through'}`}>
                 {text}
             </div>
 
