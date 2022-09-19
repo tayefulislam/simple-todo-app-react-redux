@@ -1,4 +1,4 @@
-import { initialState } from "./initialState";
+import initialState from "./initialState";
 import { ADDED, AllCOMPLETED, DELETED, TOGGLED, CLEARCOMPLETED, COLORSELECTED } from './actionTypes';
 // import { renderIntoDocument } from "react-dom/test-utils";
 
